@@ -1,0 +1,18 @@
+npm install --save @angular/material @angular/cdk
+npm install --save @angular/animations
+
+ng g m shared\material --flat
+
+npm install --save hammerjs
+
+main.ts import hammer.js
+styles.css import theme
+material icon link in index.html
+-generate demo module and routing in it
+ng g m demo\demo --flat --routing
+
+
+--dry run 
+ng g c demo/buttons --dry-run
+
+npm install --save @angular/flex-layout
